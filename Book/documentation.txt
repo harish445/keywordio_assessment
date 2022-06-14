@@ -22,3 +22,5 @@ finally change database from default 'sqllite' to 'mysql'. and migrate database.
 -- to register new user go to '/api/users'
 -- to generate token - 'api/token/login'
 
+Thanks!
+

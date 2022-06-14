@@ -3,7 +3,7 @@ Library Management Sysytem using DjangoRestFramework.
 
 . Student can only view the books. So, set the default home to student page and list all the books which is in database.
 
-. create authentication for admin in djangorestframework using libray 'Djoser'. and restricted api endpoints only for admin using permission classes.
+. create authentication for admin in djangorestframework using libray 'Djoser'. and restricted api endpoints only for admin using permission classes .
 
 . I like to seperate my api views and endpoints, so I created 'api' directory and created files - views.py, models.py, urls.py and serializers.py.
 
@@ -13,6 +13,7 @@ Library Management Sysytem using DjangoRestFramework.
 
 create library app -
 
+. Use bootstrap5 library for frontend.
 . create Book model with fields name, author and price of the book.
 . their is only one view and url for student page.
 

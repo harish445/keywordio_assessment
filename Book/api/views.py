@@ -2,7 +2,6 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
-from rest_framework import status
 from library.models import Book
 from .serializers import BookSerializer
 
@@ -41,7 +40,3 @@ def deleteBook(request, pk):
 	book.delete()
 
 	return Response('Item succsesfully delete!')
-
-@api_view(['GET'])
-def restricted(request):
-    return Response(data='Only for logged in User', status=status.HTTP_200_OK)
